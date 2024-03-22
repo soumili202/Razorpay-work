@@ -1,0 +1,54 @@
+{
+    "entity": "event",
+    "account_id": "acc_NoiTPrzGlDh8Qv",
+    "event": "payment.captured",
+    "contains": [
+        "payment"
+    ],
+    "payload": {
+        "payment": {
+            "entity": {
+                "id": "pay_NpXaiQGDhusRTC",
+                "entity": "payment",
+                "amount": 50000,
+                "currency": "INR",
+                "status": "captured",
+                "order_id": "order_NpXaH74EoEc047",
+                "invoice_id": null,
+                "international": false,
+                "method": "upi",
+                "amount_refunded": 0,
+                "refund_status": null,
+                "captured": true,
+                "description": "Hue Hue",
+                "card_id": null,
+                "bank": null,
+                "wallet": null,
+                "vpa": "soumilirupsa@oksbi",
+                "email": "soumilirupsa2020@gmail.com",
+                "contact": "+918777872871",
+                "notes": {
+                    "description": "Hue Hue"
+                },
+                "fee": 1180,
+                "tax": 180,
+                "error_code": null,
+                "error_description": null,
+                "error_source": null,
+                "error_step": null,
+                "error_reason": null,
+                "acquirer_data": {
+                    "rrn": "250051765773",
+                    "upi_transaction_id": "6A507094C6137A4E8BAB50BFB8BD5917"
+                },
+                "created_at": 1711141034,
+                "reward": null,
+                "upi": {
+                    "vpa": "soumilirupsa@oksbi"
+                },
+                "base_amount": 50000
+            }
+        }
+    },
+    "created_at": 1711141035
+}
